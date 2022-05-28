@@ -1,7 +1,8 @@
 import './App.scss'
-import Landing from './components/Landing'
 import Navbar from './components/Navbar'
+import Landing from './components/Landing'
 import Trustee from './components/Trustee'
+import Quote from './components/Quote'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Navbar/>
     <Landing/>
     <Trustee/>
+    <Quote/>
    </div>
    </>
   )
